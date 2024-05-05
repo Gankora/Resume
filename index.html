@@ -5,75 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="html, course, css, tags">
     <meta name="description" content="Сайт Константина Крюкаева">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="decor.css">
     <title>Konstantine site</title>
 </head>
 <body>
-    <img src="my_photo.jpg" alt="Константин Крюкаев" width="200">
-    <h1>Константин Крюкаев</h1>
-    <p>Я люблю <em>бегать, заниматься в спортзале</em> и <strong>развиваться в новых направлениях.</strong></p>
+    <div class="container">
+            <div class="info">
+                <img class="avatar" src="my_photo.jpg" alt="Константин Крюкаев">
+                <div class="info-text">
+                    <h1>Константин Крюкаев</h1>
+                    <p>Я люблю <em>бегать, заниматься в спортзале</em> и <strong>развиваться в новых направлениях.</strong></p>
 
-    <hr>
+                    <h3>Мои социальные сети:</h3>
+                
+                    <div class="cardlnk">
+                        <a class="lnk1" href="https://vk.com/id56046251" target="_blank">VK</a></li>
+                        |
+                        <a class="lnk2" href="https://t.me/KryukaevKostya" target="_blank">Telegram</a></li>
+                    <hr>
+               </div>
+            </div>    
+                </div>
+        <div class="card bg1">
+            <h3>Мои хобби:</h3>
     
-    <h3>Мои социальные сети:</h3>
-    <a href="https://vk.com/id56046251" target="_blank">VK</a>
-    <a href="https://t.me/KryukaevKostya" target="_blank">Telegram</a>
-
-    <h3>Мои хобби:</h3>
-
-    <ol>
-        <li>Путешествия</li>
-        <li>Спортзал</li>
-        <li>Бокс</li>
-        <li>Книги</li>
-    </ol>
-
-    <h3>Опыт работы</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>   
-        </thead>
-
-    <tbody>
-        <tr>
-            <td>InnovaGroup</td>
-            <td>Специалист по защите информации</td>
-            <td>2019-2021</td>
-        </tr>
-        <tr>
-            <td>Web technology</td>
-            <td>Системный администратор</td>
-            <td>2021-2023</td>
-        </tr>
-        <tr>
-            <td>Techno WIN</td>
-            <td>Frontend-разработчик</td>
-            <td>2023 - по н.вр.</td>
-        </tr>
-    </tbody>
-    </table>
-
-    <h3>Связаться со мной</h3>
-
-    <form>
-        <div>
-            <label for="text1">Введите имя:</label>
-            <input type="text" id="text1" placeholder="Введите имя">
+            <ol class="list">
+                <li>Путешествия</li>
+                <li>Спортзал</li>
+                <li>Бокс</li>
+                <li>Книги</li>
+            </ol>
         </div>
-        <div>
-            <label for="email">Введите email:</label>
-            <input type="email" id="email" placeholder="Введите email">
+        
+        <div class="card bg2">
+            <h3>Опыт работы:</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>   
+                </thead>
+        
+            <tbody>
+                <tr>
+                    <td>InnovaGroup</td>
+                    <td>Специалист по защите информации</td>
+                    <td>2019-2021</td>
+                </tr>
+                <tr>
+                    <td>Web technology</td>
+                    <td>Системный администратор</td>
+                    <td>2021-2023</td>
+                </tr>
+                <tr>
+                    <td>Techno WIN</td>
+                    <td>Frontend-разработчик</td>
+                    <td>2023 - по н.вр.</td>
+                </tr>
+            </tbody>
+            </table>
         </div>
-        <div>
-            <label for="message">Ваше сообщение:</label>
-            <br>
-            <textarea id="message" cols="35" rows="5" placeholder="Введите сообщение"></textarea>
-        </div>
-        <input type="submit" value="Отправить форму">
-    </form>
+
+            <form class="callme">
+                <h3>Связаться со мной</h3>
+
+                <div class="form-group">
+                    <div class="form">
+                        <label for="text1">Ваше имя:</label>
+                        <input type="text" id="text1" placeholder="Введите имя">
+                    </div>
+                    <div class="form">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+                
+                <div class="form">
+                    <label for="message">Ваше сообщение:</label>
+                    <br>
+                    <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение"></textarea>
+                </div>
+                <div>
+                    <input class="btn" type="submit" value="Отправить форму">
+                </div>    
+            </form>    
+    </div>
     
 </body>
 </html>

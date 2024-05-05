@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0F141E;
+    background: #F1F1F1;
+}
+
+.info-text p {
+    font-size: 20px;
+    color: #0F141E;
+    /* убрать отступы для параграфов */
+    margin: 0;
+    
+}
+
+.info {
+    margin-bottom: 15px;
+}
+
+.card {
+    border: 2px solid #2065be;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.bg1 {
+    background-color: #7dd5f0;
+}
+.bg2 {
+    background-color: #8ff0cb;
+}
+
+.avatar {
+    width: 200px;
+    height: 250px; 
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: block;
+    /* margin: 30px auto; */
+}
+
+.container {
+   max-width: 650px;
+   margin: auto;
+   padding: 30px 45px;
+}
+
+.callme {
+    padding: 10px;
+}
+
+.callme h3 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-group .form {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    
+}
+
+.form-group .form:last-child {
+    margin-right: 0;
+}
+
+.form label {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    display: block;
+    font-size: 14px;
+    color: #302e2e;
+    
+}
+
+.form input, .form textarea
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    font-family: inherit;
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 25px;
+}
+
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .avatar {
+        margin: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .form-group {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .form-group .form {
+        width: 100%;
+        margin-right: 0;
+        margin: 20px 0px 20px;
+    }
+}
+

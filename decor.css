@@ -1,0 +1,68 @@
+a {
+    color: rgb(48, 62, 189);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(221, 64, 111);
+}
+
+a:active {
+    color: rgb(221, 156, 16);
+}
+
+.btn {
+    background: #7dd5f0;
+    padding: 7px 30px;
+    border: 2px solid #2065be;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: rgb(221, 64, 111);
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table th {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.lnk1 {
+    padding-right: 5px;
+}
+
+.lnk2 {
+    padding-left: 5px;
+}
+
+.cardlnk { 
+    padding-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+
+
